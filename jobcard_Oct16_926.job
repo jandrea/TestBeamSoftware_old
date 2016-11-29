@@ -1,0 +1,17 @@
+#START
+#CNM module angular scan run in May 16.(Program 14)
+Run=926
+inputFile=../../../Soft_8_11_2016/TestBeamSoftware/AnalysisTree/AnalysisTree_0926.root
+outputFile=TYPE_Output_926.root
+fei4Z=724
+readAlignmentFromfile=RALFF
+doTelescopeMatching=1
+doChannelMasking=0
+channelMaskFile=chmask.txt
+residualSigmaDUT=0.026
+nStrips=254
+pitchDUT=0.09
+#only needed by Alignment Analysis
+isProductionmode=1
+alignmentOutputFile=alignmentparOutput_Oct16_926.txt
+#END
